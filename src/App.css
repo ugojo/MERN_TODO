@@ -1,0 +1,244 @@
+
+
+.rows{
+    margin-bottom: 6rem;
+}
+.left{
+  display: flex;
+  justify-content: center;
+}
+svg{
+  display: inline;
+}
+li .none{
+   text-decoration: none;
+}
+.error{
+  width: 300px;
+  height: 50px;
+  color: red;
+  border: 1px solid red;
+  text-align: center;
+  font-size: 15px;
+}
+.logoutBtn{
+  margin: 15px;
+  padding: 10px;
+}
+
+.checked{
+  border: 1px solid green;
+}
+.todoDetail{
+  outline: none;
+  font-size: 15px;
+}
+.checkedSvg{
+  margin: 5px;
+}
+@media (min-width: 730px) {
+.container{
+    position: relative;
+    background-color: white;
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.rows{
+    display: flex;
+}
+.todo-container{
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+.list-container{
+    position: relative;
+    width: 100%;
+    background-color: #f2f2f2;
+   
+}
+.list p{
+    text-align: center; 
+}
+
+.Ul{
+    padding: 5px;
+    list-style: none;
+  }
+  .Ul li{
+    height: 100px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.2), 0 6px 20px 0 rgba( 0, 0, 0, 0.19);
+    cursor: pointer;
+  }
+  .Ul li .left{
+    text-align: right;
+  }
+}
+
+/* media ends */
+.warpper .box{
+    color: white;
+    align-self: left;
+}
+
+input[type=search]{
+    width: 100%;
+    padding: 10px 40px;
+    border: 1px solid blue;
+    box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.2), 0 6px 20px 0 rgba( 0, 0, 0, 0.19);
+}
+
+.header-box{
+     background-color: blue;
+     color: white;
+     font-size: 20px;
+     width: 60%;
+     height: 150px;
+     margin: 10px auto ;
+     padding: 35px;
+     border-radius: 10px; 
+}
+.Categories{
+    width: 100%;
+    margin: auto;
+}
+.category{
+    margin: 10px;
+    padding: 0 30px;
+    font-size: bold;
+}
+.Categories h4{
+    text-align: left; margin: 10px; 
+    padding: 5px 40px; font-weight: bold;
+}
+
+ button{
+    font-size: 17px;
+    font-weight: bold;
+    width: 30%;
+    height: 50px;
+    flex: 1;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid blue;
+    box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.2), 0 6px 20px 0 rgba( 0, 0, 0, 0.19);
+}
+button.black{ color: black;}
+button.orange{color: orange;}
+button.green{color: green;}
+button.blue{color: blue;}
+button.light{color: blueviolet;}
+
+.list{
+    position: relative;
+}
+.list p{
+    text-align: left; margin: 10px; 
+    padding: 5px 40px; font-weight: bold;
+}
+ul{
+    list-style-type: none;
+  }
+.Ul{
+   width: 80%;
+   position: relative;
+   margin: auto;
+   padding: 10px;
+   list-style: none;
+ }
+ .Ul li{
+   height: 70px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   margin: 5px;
+   padding: 10px 5px;
+   margin-bottom: 5px;
+   opacity: .9;
+   box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 0.2), 0 6px 20px 0 rgba( 0, 0, 0, 0.19);
+   cursor: pointer;
+ }
+ .Ul li span.list-txt{
+   padding: 5px 5px;
+   color: black;
+ }
+ .Ul li span.left svg{
+   width: 80px;
+ }
+ /* Form  */
+ input[type=text], input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .todo-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+ /* Footer */
+ .footer {
+    position: fixed;
+    padding: 10px;
+    margin-top: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15px;
+    background-color: #f1f1f1;
+    
+  }
+ .footer .fUl{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer .fUl li{
+    flex: 1;
+    padding: 5px;
+    cursor: pointer;
+}
+.footer .fUl li .link{
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .Ul li{
+    height: 20px;
+  }
+}
