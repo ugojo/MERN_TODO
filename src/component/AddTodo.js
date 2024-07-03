@@ -19,7 +19,7 @@ const AddTodo = ({cate})=>{
 
        const todo = {title, category, priority, description}
 
-       const response = await fetch('/api/todo/', {
+       const response = await fetch('https://todo-9bl4.onrender.com/api/todo/', {
           method: "POST",
           body: JSON.stringify(todo),
           headers: {

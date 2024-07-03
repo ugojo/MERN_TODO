@@ -14,7 +14,7 @@ const useSignup = ()=>{
         setIsLoading(true)
         setError(null)
 
-        const response = await fetch('/api/auth/signup/',{
+        const response = await fetch('https://todo-9bl4.onrender.com/api/auth/signup/',{
             method: 'POST',
             headers: {
                 'Content-Type': 'Application/json'
