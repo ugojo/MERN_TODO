@@ -7,7 +7,7 @@ const TodoDetails = ()=>{
 
    const param = useParams()
 
-    const {todo, isLoading, error} = useFetch(`https://todo-9bl4.onrender.com/api/todo/${param.id}`)
+    const {todo, isLoading, error} = useFetch(`http://localhost:4000/api/todo/${param.id}`)
 
     
 
