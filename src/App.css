@@ -36,6 +36,12 @@ li .none{
 .checkedSvg{
   margin: 5px;
 }
+.warpper{
+  display: flex;
+}
+.warpper p{
+  margin-bottom:10  px;
+}
 @media (min-width: 730px) {
 .container{
     position: relative;
@@ -84,6 +90,7 @@ body {
 
 /* media ends */
 .warpper .box{
+    display: flex;
     color: white;
     align-self: left;
 }

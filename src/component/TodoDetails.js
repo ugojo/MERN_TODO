@@ -7,7 +7,7 @@ const TodoDetails = ()=>{
 
    const param = useParams()
 
-    const {todo, isLoading, error} = useFetch(`http://localhost:4000/api/todo/${param.id}`)
+    const {todo, isLoading, error} = useFetch(`/api/todo/${param.id}`)
 
     
 

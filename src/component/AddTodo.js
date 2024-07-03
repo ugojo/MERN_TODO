@@ -19,7 +19,7 @@ const AddTodo = ({cate})=>{
 
        const todo = {title, category, priority, description}
 
-       const response = await fetch('http://localhost:4000/api/todo/', {
+       const response = await fetch('/api/todo/', {
           method: "POST",
           body: JSON.stringify(todo),
           headers: {
